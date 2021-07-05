@@ -11,34 +11,44 @@
   margin-right: 30px;
 }
 
-.advantage__item::before {
-  content: "";
-  display: block;
+.advantage__item {
+  &::before {
+    content: "";
+    display: block;
 
-  width: 270px;
-  height: 120px;
-  margin-bottom: 30px;
-  background-repeat: no-repeat;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+  }
 }
-.advantage__icon-attention::before {
-  background: url(../images/icon/antenna.svg) no-repeat,
-    var(--secondary-white-color);
-  background-position: center;
+.advantage__icon-attention {
+  &::before {
+    background: url(../images/icon/antenna.svg) no-repeat,
+      var(--secondary-white-color);
+    background-position: center;
+  }
 }
-.advantage__icon-punctuality::before {
-  background: url(../images/icon/clock.svg) no-repeat,
-    var(--secondary-white-color);
-  background-position: center;
+.advantage__icon-punctuality {
+  &::before {
+    background: url(../images/icon/clock.svg) no-repeat,
+      var(--secondary-white-color);
+    background-position: center;
+  }
 }
-.advantage__icon-plan::before {
-  background: url(../images/icon/diagram.svg) no-repeat,
-    var(--secondary-white-color);
-  background-position: center;
+.advantage__icon-plan {
+  &::before {
+    background: url(../images/icon/diagram.svg) no-repeat,
+      var(--secondary-white-color);
+    background-position: center;
+  }
 }
-.advantage__icon-technology::before {
-  background: url(../images/icon/astronaut.svg) no-repeat,
-    var(--secondary-white-color);
-  background-position: center;
+.advantage__icon-technology {
+  &::before {
+    background: url(../images/icon/astronaut.svg) no-repeat,
+      var(--secondary-white-color);
+    background-position: center;
+  }
 }
 .advantage__title {
   font-weight: 700;
