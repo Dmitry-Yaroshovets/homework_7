@@ -1,0 +1,105 @@
+header .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.site-nav__web-logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+
+  color: var(--accent-color);
+}
+.site-nav__studio-logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+
+  color: var(--title-text-color);
+}
+.nav-list {
+  display: flex;
+  padding-left: 93px;
+}
+.nav-list__item:not(:last-child) {
+  margin-right: 50px;
+}
+.nav-list__link {
+  position: relative;
+  content: "";
+  display: block;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.activ::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 4px;
+  left: 0px;
+  top: 45px;
+  border-radius: 2px;
+  background-color: var(--accent-color);
+}
+
+.header-contact-list {
+  display: flex;
+  align-items: center;
+}
+.header-contact-list__item {
+  display: flex;
+}
+.header-contact-list__item svg {
+  margin-right: 10px;
+}
+.header-contact-list__item:not(:last-child) {
+  margin-right: 50px;
+}
+.header-contact-list__link {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-list__link:hover,
+.nav-list__link:focus,
+.nav-list__link:active,
+a .activ {
+  color: var(--accent-color);
+}
+.header-contact-list__link:hover,
+.header-contact-list__link:focus,
+.header-contact-list__link:active {
+  color: var(--accent-color);
+  fill: currentColor;
+}
+header {
+  background-color: var(--white-color);
+}
+.header {
+  border-bottom: 1px solid var(--color-border);
+}
