@@ -87,6 +87,8 @@ header .container {
   position: relative;
   content: "";
   display: block;
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
@@ -128,11 +130,14 @@ header .container {
 
 .header-contact-list__item svg {
   margin-right: 10px;
+  border-color: var(--primary-text-color);
 }
 
 .header-contact-list__link {
   display: flex;
   align-items: center;
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
@@ -750,6 +755,8 @@ header {
 }
 
 .menu__card-content--title {
+  font-family: Roboto;
+  font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
@@ -758,8 +765,12 @@ header {
 }
 
 .menu__card-content--text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
   font-size: 16px;
   line-height: 1.88;
+  letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
 
