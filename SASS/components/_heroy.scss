@@ -16,13 +16,16 @@
   background-size: cover;
 }
 .heroy-title {
-  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  letter-spacing: 0.06em;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.35;
   text-transform: uppercase;
   color: var(--white-color);
   margin-bottom: 30px;
+  text-align: center;
 }
 .order-service {
   font-family: Roboto;
